@@ -1,0 +1,37 @@
+//
+//	FORM
+// ------------------------------------------------------
+
+form {
+	position: relative;
+	margin: 0px auto;
+	width: 25em;
+}
+
+
+textarea {
+	color: $color-text;
+	font-size: 0.9em;
+	font-family: inherit;
+
+	border: 2px solid #333;
+	background: #fff;
+	border-radius: 0.333em;
+	outline: none;
+
+	display: block;
+	padding: 0.6em;
+	max-width: 100%;
+	width: 100%;
+	height: 100px;
+}
+
+
+.counter {
+	color: $color-muted;
+	font-size: 0.8125em;
+
+	position: absolute;
+	bottom: 0.625em;
+	right: 0.80em;
+}

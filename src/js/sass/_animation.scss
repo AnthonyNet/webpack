@@ -1,0 +1,9 @@
+//
+//	ANIMATIONS
+// ------------------------------------------------------
+
+@keyframes blink {
+	0%   { stroke-width: $stroke-thicc; }
+	10%  { stroke-width: $stroke-bounce; }
+	100% { stroke-width: $stroke-thicc; }
+}

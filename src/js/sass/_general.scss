@@ -1,0 +1,27 @@
+//
+//	GENERAL
+// ------------------------------------------------------
+
+html { box-sizing: border-box; }
+*, *:before, *:after { box-sizing: inherit; }
+
+
+body {
+	color: $color-muted;
+	text-align: center;
+
+	font: {
+		family: $font-family-sans;
+		size:   $font-size-base;
+	}
+
+	background: {
+		image:    url( $background-url );
+		position: 50% 12em;
+		repeat:   no-repeat;
+		size:     85%;
+	}
+
+	height: 100vh;
+	margin: 0;
+}
